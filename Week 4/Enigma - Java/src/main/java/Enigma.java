@@ -43,12 +43,12 @@ public final class Enigma {
 
     public static String formatInputMessage(String message){
         /* The method FormatInputMessage should be used when encoding a message. It should
-        make all characters in the string message uppercase. Remove all non alphabetic 
+        make all characters in the string message uppercase. Remove all non-alphabetic
         characters from the string except for spaces ' '  and full stops '.'. Then 
         replace all spaces with a '?' and all full stops '.' with a '€'.
         TO DO - add your implementation 
         
-        Example input:  "Test message. Working.
+        Example input:  "Test message. Working."
         Example output: "TEST?MESSAGE€?WORKING€" */
 
         // TO DO - add your implementation
@@ -57,7 +57,7 @@ public final class Enigma {
     //public static String formatOutputMessage(String message){
         /* The method FormatOuputMessage should be used when decoding a message. It should replace
         all '?' characters with a single space ' ' and all '€' with a '.' full stop. All 
-        characters should be lower case except for the first character in the input string 
+        characters should be lowercase except for the first character in the input string
         and every character after a full stop.  
         
         Example input:  "TEST?MESSAGE€?WORKING€"
@@ -74,13 +74,15 @@ public final class Enigma {
          
         Example input:  "HELLO", -7, true 
         initial shift value = -7 for 'H' then -8 for 'E' and so forth results in:
-        Example output: "AWCBD" */
-        
+        Example output: "AWCBD"
+        } */
+
         // TO DO - add your implementation
+
 
     //private static String applyRotor(String message, String rotor){
 
-        /*The ApplyRotor method should substitue each [A..Z] character in the input string
+        /*The ApplyRotor method should substitute each [A..Z] character in the input string
         with the corresponding character in the rotor. 
                                                  
         Example input message: "Apples", rotor: HFPMRIBTJWYDXQLGUKOVSNAZEC
