@@ -52,9 +52,9 @@ public final class Enigma {
         Example output: "TEST?MESSAGE€?WORKING€" */
 
         // TO DO - add your implementation
-    }
 
-    public static String formatOutputMessage(String message){
+
+    //public static String formatOutputMessage(String message){
         /* The method FormatOuputMessage should be used when decoding a message. It should replace
         all '?' characters with a single space ' ' and all '€' with a '.' full stop. All 
         characters should be lower case except for the first character in the input string 
@@ -64,9 +64,9 @@ public final class Enigma {
         Example output: "Test message. Working. */
 
         // TO DO - add your implementation
-    }
 
-    public static String caesarShift(String message, int shift, bool encode){
+
+    //public static String caesarShift(String message, int shift, bool encode){
         /* The CaesarShift method should take a message and shift each character [A-Z] by the 
         value shift, incrementing or decrementing the value of shift by 1 or -1 with each 
         character shifted if given a positive shift value if encode = true otherwise shifted
@@ -77,9 +77,8 @@ public final class Enigma {
         Example output: "AWCBD" */
         
         // TO DO - add your implementation
-    }
 
-    private static String applyRotor(String message, String rotor){
+    //private static String applyRotor(String message, String rotor){
 
         /*The ApplyRotor method should substitue each [A..Z] character in the input string
         with the corresponding character in the rotor. 
