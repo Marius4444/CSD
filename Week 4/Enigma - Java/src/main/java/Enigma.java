@@ -51,7 +51,9 @@ public final class Enigma {
         Example input:  "Test message. Working."
         Example output: "TEST?MESSAGE€?WORKING€" */
 
-        // TO DO - add your implementation
+        String formatted;
+        formatted = message.toUpperCase().replace(" ", "?").replace(".", "€");
+        return formatted;
 
 
     //public static String formatOutputMessage(String message){
